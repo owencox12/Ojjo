@@ -1,0 +1,15 @@
+.salons {
+    min-height: 541px;
+    background: url(../../image/bgcolorblack.png) center center / cover no-repeat;
+    padding: 100px 0;
+    &__text {
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        width: 730px;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,92 @@
+.footer {
+    min-height: 395px;
+    padding: 80px 0 20px 0;
+    &__wrapper {
+        display: flex;
+        flex: 0 0 25%;
+    }
+    &__item {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 12px;
+        &_link {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            color: #333333;
+            margin-top: 15px;
+            transition: all .3s;
+            &:hover {
+                color: rgb(247, 205, 128);
+                text-decoration: none;
+            }
+            &_phone {
+                margin-left: 10px;
+            }
+        }
+        &_text {
+            font-family: Gilroy;
+            font-size: 14px;
+            line-height: 150%;
+            color: #333333;
+            width: 255px;
+
+        }
+    }
+    &__divider {
+        width: 100%;
+        height: 1px;
+        background: #333333;
+        margin-bottom: 15px;
+        &_last {
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-top: none;
+        }
+    }
+    &__title {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    &__image {
+        margin-top: 15px;
+        img {
+            margin-right: 15px;
+        }
+    }
+    &_last {
+        hr {
+            margin-top: 60px;
+        }
+    }
+    &__last_item {
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-family: Gilroy;
+            font-size: 14px;
+            line-height: 150%;
+            color: #333333;
+            p {
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+    }
+    .footer_icon {
+        width: 25px;
+        &:hover {
+            fill: red;
+        }
+    }
+     
+    }

@@ -1,0 +1,53 @@
+.advice {
+    min-height: 1761px;
+    padding: 120px 0 150px 0;
+    background: #fff;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__float_image {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        &_text {
+            position: absolute;
+            top: 67%;
+            left: 30%;
+            font-family: Gilroy;
+            font-size: 21px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+            &_second {
+                left: 23%;
+            }
+            &_third {
+                left: 23%;
+            }
+        }
+    }
+    &__social {
+        margin-top: 120px;
+        &_item {
+            margin-top: 60px;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .social__player {
+            position: absolute;
+            top: 20%;
+            left: 22%;
+            cursor: pointer;
+            &--second {
+                left: 71%;
+                top: 67%;
+            }
+        }
+        
+
+    }
+}

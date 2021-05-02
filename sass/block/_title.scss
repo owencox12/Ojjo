@@ -1,0 +1,30 @@
+.title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #000;
+    &--salons {
+        color: #fff;
+    }
+    &--form {
+        color: #fff;
+    }
+}
+.subtitle {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000;
+    &--salons {
+        color: #fff;
+    }
+    &--form {
+        color: #fff;
+    }
+}

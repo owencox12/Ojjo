@@ -1,0 +1,15 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+@import 'block/header';
+@import 'block/main';
+@import 'block/button';
+@import 'block/promo';
+@import 'block/title';
+@import 'block/salons';
+@import 'block/advice';
+@import 'block/form';
+@import 'block/footer';
+@import 'block/media';

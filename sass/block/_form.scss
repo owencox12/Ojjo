@@ -1,0 +1,57 @@
+.form {
+    min-height: 478px;
+    background: url(../../image/bgcolor4.png)center center / cover no-repeat;
+    padding: 100px 0 120px 0 ;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+
+    }
+    &__item {
+        margin-top: 61px;
+        &:first-child{
+            margin-right: 80px;
+        }
+        &_privilege {
+            display: flex;
+            align-items: center;
+            span {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 140%;
+                color: #fff;
+                margin-left: 20px;
+                margin-bottom: 15px;
+            }
+        }
+        &_block {
+            width: 448px;
+            height: 113px;
+            border: 1px solid #fff;
+            padding: 15px;
+            position: relative;
+            form {
+                width: 418px;
+                height: 85px;
+                padding: 15px;
+                background: #fff;
+                position: relative;
+                display: flex;
+                align-items: center;
+                    .form__input {
+                        width: 200px;
+                        height: 45px;
+                        font-family: Gilroy;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        padding-left: 15px;
+                    }
+            }
+        }
+    }
+}
